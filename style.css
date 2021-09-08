@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{ 
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #ff0bae;
+    --dark-grey:#fac4f3;
+    --white:#f9fafb;
+
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+
+#navigation{
+    background: var(--primary-color);
+    padding: 1rem;
+    box-shadow: 10px 10px rgb(204, 198, 198);
+    border-radius: 10px;
+    
+    
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+}
+.list-item-inline{
+    display: inline;
+    margin: 1rem;
+}
+
+.nav-links{
+    text-align: right;
+}
+
+.nav-brand{
+    color: white;
+    font-weight: 700;
+
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/*heading*/
+.header{
+    margin-top: 5rem;
+    
+}
+
+.header-image{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+
+}
+.header-heading{
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+.header-subheading{
+    color:var(--dark-grey);
+    text-align:center;
+    margin-bottom: 5rem;
+    
+}
+.about-image{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    padding: 3rem;
+
+}
+.section-about{
+    background: var(--dark-grey);
+    max-width:  600px;;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 25px;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 1rem ;
+    color: #ff0bae;
+}
+
+.list-item{
+
+    padding-bottom: 0.7rem;
+}
+
+/*project section*/
+.section-project{
+    padding:3rem ;
+    margin-top: 5rem;
+
+}
+.project-card{
+    border: 1px solid black;
+    padding: 1rem;
+    background: white;
+    box-shadow: 10px 10px rgb(204, 198, 198);
+}
+.proj-image{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+.project-heading,.project-description{
+    text-align: center;
+    margin: 2rem;
+}
+
+.primary-link{
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.secondary-link{
+    text-decoration: none;
+
+    background: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);    
+
+   
+    padding: 0.5rem 1rem;
+    margin:1rem;
+    
+    display: block;
+    text-align:center;
+    
+    width: 50%;
+    
+    margin:auto;
+    margin-top:1rem;
+}
+footer{
+    background: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-header{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
